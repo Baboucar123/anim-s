@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://previews.123rf.com/images/sternfahrer/sternfahrer2302/sternfahrer230200923/198926120-un-marcheur-dans-le-style-manga-anime-des-alpes-avec-une-montagne-en-arri%C3%A8re-plan.jpg);
+    background-size: cover; 
+    color: white; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 20px; 
+}
+
+h1 {
+    color: blue;
+    text-align: center; 
+}
+
+h2 {
+    color: red;
+    margin-top: 20px; 
+}
+
+h3 {
+    color: violet;
+}
+
+p {
+    background-color: rgba(241, 200, 100, 0.8); 
+    padding: 10px; 
+    border-radius: 8px; 
+}
+
+ol {
+    color: chartreuse;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 10px; 
+    justify-items: center; 
+    margin-top: 20px;
+}
+
+.box {
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 8px; 
+    padding: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+    max-height: 150px; 
+    border-radius: 8px; 
+}
+
+/* Classes pour différentes tailles de box */
+.box-small {
+    width: 250px;
+    height: 300px; 
+}
+
+.box-medium {
+    width: 250px;
+    height: 300px; 
+}
+
+.box-large {
+    width: 250px;
+    height: 300px; 
+}
